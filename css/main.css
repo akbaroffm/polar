@@ -359,11 +359,22 @@ h1{
 /* oroduct end */
 
 /* order start */
-
+.order-section{
+    padding-top: 200px;
+    background-image: url(../images/order-phone.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(50% - 400px);
+    background-position-y: calc(50% + 50px);
+    background-size: auto;
+}
 .order-wrap{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     gap: 100px;
+}
+.order-content{
+   padding-left: 50%;
 }
 .order-content h2{
     color: #000;
@@ -372,4 +383,28 @@ h1{
     font-weight: 500;
     line-height: normal;
 }
+.order-text{
+    color: #0F0101;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    opacity: 0.7;
+}
+.order-content strong{
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 /* order end */
+
+/* contact start */
+
+.contact-section{
+    padding-top: 200px;
+}
+
+/* contact end */
